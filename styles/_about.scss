@@ -1,0 +1,17 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    &-data{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        gap: 10px;
+    }
+    //resim
+    img{
+        width: 280px;
+    }
+}
